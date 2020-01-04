@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#E9B6AA</color>
+    <color name="colorPrimaryDark">#DC8D7B</color>
+    <color name="colorAccent">#9ACAAF</color>
+
+    <color name="colorDrawerBg">#F7F4DA</color>
+    <color name="colorEditBottomBar">#F4E2CC</color>
+    <color name="dialogbg">#00909090</color>
+    <color name="colorDeleteBg">#DA6090</color>
+    <color name="colorRestoreBg">#50AAAB</color>
+    <color name="colorGray">#B4B4B4</color>
+
+    <!-- StatusBar Color -->
+    <color name="colorStatusBar1">#DC8D7B</color>// 220 141 123
+    <color name="colorStatusBar2">#DE8EB3</color>// 222 142 179
+    <color name="colorStatusBar3">#C79CE8</color>// 199 156 232
+    <color name="colorStatusBar4">#E4A469</color>// 48 79 193
+    <color name="colorStatusBar5">#92AAD6</color>// 146 170 214
+    <color name="colorStatusBar6">#81AAA7</color>// 129 170 167
+    <color name="colorStatusBar7">#6EA369</color>// 110 163 105
+    <color name="colorStatusBar8">#304FC1</color>// 228 164 105
+
+    <!-- HeaderBar Color -->
+    <color name="colorHeaderBar1">#E9B6AA</color>// 233 182 170
+    <color name="colorHeaderBar2">#F7D0E3</color>// 247 208 227
+    <color name="colorHeaderBar3">#E5C8FB</color>// 229 200 251
+    <color name="colorHeaderBar4">#6C7CF4</color>// 108 124 244
+    <color name="colorHeaderBar5">#A4CBFA</color>// 164 203 250
+    <color name="colorHeaderBar6">#AFE4DF</color>// 175 228 223
+    <color name="colorHeaderBar7">#9DD496</color>// 157 212 150
+    <color name="colorHeaderBar8">#F5C181</color>// 245 193 129
+
+    <!-- ThemeBg Color -->
+    <color name="colorThemeBg1">#F7F4DA</color>// 247 244 218
+    <color name="colorThemeBg2">#FEFBF4</color>// 254 251 244
+    <color name="colorThemeBg3">#FCF6FE</color>// 252 246 254
+    <color name="colorThemeBg4">#E8EAF5</color>// 232 234 245
+    <color name="colorThemeBg5">#F7FEFF</color>// 247 254 255
+    <color name="colorThemeBg6">#FFFEE6</color>// 255 254 230
+    <color name="colorThemeBg7">#EAF4EA</color>// 234 244 234
+    <color name="colorThemeBg8">#FEF7EC</color>// 254 247 236
+
+    <!-- Fab Color -->
+    <color name="colorFabBg1">#9ACAAF</color>// 154 202 175
+    <color name="colorFabBg2">#CC456E</color>// 204 69 110
+    <color name="colorFabBg3">#7D83F7</color>// 125 131 247
+    <color name="colorFabBg4">#C13B7E</color>// 193 59 126
+    <color name="colorFabBg5">#93D5E0</color>// 147 213 224
+    <color name="colorFabBg6">#DE8EB3</color>// 222 142 179
+    <color name="colorFabBg7">#F6C15B</color>// 246 193 91
+    <color name="colorFabBg8">#9FDAFB</color>// 159 218 251
+
+    <!-- EditBottomBar Color -->
+    <color name="colorEditBottomBar1">#F3E1CC</color>// 243 225 204
+    <color name="colorEditBottomBar2">#FCEEEF</color>// 252 238 239
+    <color name="colorEditBottomBar3">#F5E9FD</color>// 245 233 253
+    <color name="colorEditBottomBar4">#C3C9F5</color>// 195 201 245
+    <color name="colorEditBottomBar5">#DEEEFD</color>// 222 238 253
+    <color name="colorEditBottomBar6">#E7F6E4</color>// 231 246 228
+    <color name="colorEditBottomBar7">#D3EBD1</color>// 211 235 209
+    <color name="colorEditBottomBar8">#FBE6CB</color>// 251 230 203
+
+</resources>

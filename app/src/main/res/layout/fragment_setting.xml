@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rootView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?android:attr/colorBackground">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/editTitleText"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:textSize="16sp"
+            android:text="@string/edit"
+            android:textStyle="bold"
+            android:textColor="?attr/colorAccent"
+            android:paddingStart="72dp"
+            android:gravity="bottom"
+            android:paddingBottom="8dp"/>
+
+        <TextView
+            android:id="@+id/fontSetting"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:text="@string/font"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            android:paddingStart="72dp"
+            android:gravity="center_vertical" />
+
+        <LinearLayout
+            android:id="@+id/mojiSize"
+            android:layout_width="match_parent"
+            android:layout_height="72dp"
+            android:orientation="vertical"
+            android:gravity="center_vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="72dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/mojiSizeTitleText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:text="@string/mojiSize"
+                    android:textColor="@android:color/black"/>
+
+                <TextView
+                    android:id="@+id/mojiSizeText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorGray"
+                    android:text="@string/defaultStr"
+                    android:textSize="14sp"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="#B4B4B4"/>
+
+        <TextView
+            android:id="@+id/generalTitleText"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:textSize="16sp"
+            android:text="@string/general"
+            android:textStyle="bold"
+            android:textColor="?attr/colorAccent"
+            android:paddingStart="72dp"
+            android:gravity="bottom"
+            android:paddingBottom="8dp"/>
+
+        <TextView
+            android:id="@+id/theme"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:text="@string/theme"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            android:paddingStart="72dp"
+            android:gravity="center_vertical" />
+
+        <TextView
+            android:id="@+id/aboutApp"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:text="@string/aboutApp"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            android:paddingStart="72dp"
+            android:gravity="center_vertical" />
+
+    </LinearLayout>
+
+</android.support.v4.widget.NestedScrollView>

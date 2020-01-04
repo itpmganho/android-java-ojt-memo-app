@@ -1,0 +1,155 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="Theme.AppCompat.Light.NoActionBar.FullScreen" parent="Theme.AppCompat.Light">
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="homeAsUpIndicator">@mipmap/ic_back</item>
+    </style>
+
+    <!-- Default -->
+    <style name="MemoTheme.Default" parent="AppTheme">
+        <item name="colorPrimary">@color/colorHeaderBar1</item>
+        <item name="colorPrimaryDark">@color/colorStatusBar1</item>
+        <item name="colorSecondary">@color/colorEditBottomBar1</item>
+        <item name="colorAccent">@color/colorFabBg1</item>
+        <item name="android:colorBackground">@color/colorThemeBg1</item>
+    </style>
+
+    <style name="DeleteAlertDialogTheme.Default" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="colorAccent">@color/colorHeaderBar1</item>
+        <item name="android:background">@color/colorThemeBg1</item>
+        <item name="android:textColorPrimary">@android:color/black</item>
+    </style>
+
+    <!-- First -->
+    <style name="MemoTheme.First" parent="AppTheme">
+        <item name="colorPrimary">@color/colorHeaderBar2</item>
+        <item name="colorPrimaryDark">@color/colorStatusBar2</item>
+        <item name="colorSecondary">@color/colorEditBottomBar2</item>
+        <item name="colorAccent">@color/colorFabBg2</item>
+        <item name="android:colorBackground">@color/colorThemeBg2</item>
+    </style>
+
+    <style name="DeleteAlertDialogTheme.First" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="colorAccent">@color/colorHeaderBar2</item>
+        <item name="android:background">@color/colorThemeBg2</item>
+        <item name="android:textColorPrimary">@android:color/black</item>
+    </style>
+
+    <!-- Second -->
+    <style name="MemoTheme.Second" parent="AppTheme">
+        <item name="colorPrimary">@color/colorHeaderBar3</item>
+        <item name="colorPrimaryDark">@color/colorStatusBar3</item>
+        <item name="colorSecondary">@color/colorEditBottomBar3</item>
+        <item name="colorAccent">@color/colorFabBg3</item>
+        <item name="android:colorBackground">@color/colorThemeBg3</item>
+    </style>
+
+    <style name="DeleteAlertDialogTheme.Second" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="colorAccent">@color/colorHeaderBar3</item>
+        <item name="android:background">@color/colorThemeBg3</item>
+        <item name="android:textColorPrimary">@android:color/black</item>
+    </style>
+
+    <!-- Third -->
+    <style name="MemoTheme.Third" parent="AppTheme">
+        <item name="colorPrimary">@color/colorHeaderBar4</item>
+        <item name="colorPrimaryDark">@color/colorStatusBar4</item>
+        <item name="colorSecondary">@color/colorEditBottomBar4</item>
+        <item name="colorAccent">@color/colorFabBg4</item>
+        <item name="android:colorBackground">@color/colorThemeBg4</item>
+    </style>
+
+    <style name="DeleteAlertDialogTheme.Third" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="colorAccent">@color/colorHeaderBar4</item>
+        <item name="android:background">@color/colorThemeBg4</item>
+        <item name="android:textColorPrimary">@android:color/black</item>
+    </style>
+
+    <!-- Fourth -->
+    <style name="MemoTheme.Fourth" parent="AppTheme">
+        <item name="colorPrimary">@color/colorHeaderBar5</item>
+        <item name="colorPrimaryDark">@color/colorStatusBar5</item>
+        <item name="colorSecondary">@color/colorEditBottomBar5</item>
+        <item name="colorAccent">@color/colorFabBg5</item>
+        <item name="android:colorBackground">@color/colorThemeBg5</item>
+    </style>
+
+    <style name="DeleteAlertDialogTheme.Fourth" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="colorAccent">@color/colorHeaderBar5</item>
+        <item name="android:background">@color/colorThemeBg5</item>
+        <item name="android:textColorPrimary">@android:color/black</item>
+    </style>
+
+    <!-- Fifth -->
+    <style name="MemoTheme.Fifth" parent="AppTheme">
+        <item name="colorPrimary">@color/colorHeaderBar6</item>
+        <item name="colorPrimaryDark">@color/colorStatusBar6</item>
+        <item name="colorSecondary">@color/colorEditBottomBar6</item>
+        <item name="colorAccent">@color/colorFabBg6</item>
+        <item name="android:colorBackground">@color/colorThemeBg6</item>
+    </style>
+
+    <style name="DeleteAlertDialogTheme.Fifth" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="colorAccent">@color/colorHeaderBar6</item>
+        <item name="android:background">@color/colorThemeBg6</item>
+        <item name="android:textColorPrimary">@android:color/black</item>
+    </style>
+
+    <!-- Sixth -->
+    <style name="MemoTheme.Sixth" parent="AppTheme">
+        <item name="colorPrimary">@color/colorHeaderBar7</item>
+        <item name="colorPrimaryDark">@color/colorStatusBar7</item>
+        <item name="colorSecondary">@color/colorEditBottomBar7</item>
+        <item name="colorAccent">@color/colorFabBg7</item>
+        <item name="android:colorBackground">@color/colorThemeBg7</item>
+    </style>
+
+    <style name="DeleteAlertDialogTheme.Sixth" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="colorAccent">@color/colorHeaderBar7</item>
+        <item name="android:background">@color/colorThemeBg7</item>
+        <item name="android:textColorPrimary">@android:color/black</item>
+    </style>
+
+    <!-- Seventh -->
+    <style name="MemoTheme.Seventh" parent="AppTheme">
+        <item name="colorPrimary">@color/colorHeaderBar8</item>
+        <item name="colorPrimaryDark">@color/colorStatusBar8</item>
+        <item name="colorSecondary">@color/colorEditBottomBar8</item>
+        <item name="colorAccent">@color/colorFabBg8</item>
+        <item name="android:colorBackground">@color/colorThemeBg8</item>
+    </style>
+
+    <style name="DeleteAlertDialogTheme.Seventh" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="colorAccent">@color/colorHeaderBar2</item>
+        <item name="android:background">@color/colorThemeBg2</item>
+        <item name="android:textColorPrimary">@android:color/black</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="AlertDialogTheme" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:backgroundDimAmount">0.3</item>
+        <item name="android:background">?android:attr/colorBackground</item>
+    </style>
+
+    <style name="popup_window_animation">
+        <item name="android:windowEnterAnimation">@anim/fade_in_animation</item>
+        <item name="android:windowExitAnimation">@anim/fade_out_animation</item>
+    </style>
+
+</resources>

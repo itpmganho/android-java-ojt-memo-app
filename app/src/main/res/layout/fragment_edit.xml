@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rootView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:background="?android:attr/colorBackground">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="?android:attr/actionBarSize"
+        android:gravity="top"
+        android:paddingTop="16dp"
+        android:paddingStart="16dp"
+        android:textSize="14sp"
+        android:textColor="@android:color/black"
+        android:background="#FFFFFF"/>
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:hint="メモ"
+        android:gravity="top"
+        android:paddingTop="16dp"
+        android:paddingStart="16dp"
+        android:textSize="16sp" />
+
+    <LinearLayout
+        android:id="@+id/editBottomBar"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:orientation="horizontal"
+        android:layout_gravity="bottom"
+        android:background="?attr/colorSecondary"
+        android:gravity="center_vertical">
+
+        <ImageView
+            android:id="@+id/favoriteImg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_favorite_off"
+            android:paddingStart="16dp"/>
+
+        <TextView
+            android:id="@+id/mojiText"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="end"
+            android:paddingEnd="20dp"
+            android:textSize="20sp"
+            android:textColor="@color/colorGray"
+            android:text="0"/>
+
+    </LinearLayout>
+
+</FrameLayout>

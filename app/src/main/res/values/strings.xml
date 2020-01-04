@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">メモ帳</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="all_memo">すべてのメモ</string>
+    <string name="favorite">お気に入り</string>
+    <string name="garbage_box">ゴミ箱</string>
+
+    <string name="new_memo">新規メモ</string>
+    <string name="action_settings">設定</string>
+    <string name="action_sort">並び替え</string>
+    <string name="action_search">検索</string>
+    <string name="action_menu">メニュー</string>
+    <string name="action_share">シェア</string>
+    <string name="saved">保存しました。</string>
+    <string name="setting">設定</string>
+    <string name="edit">編集</string>
+    <string name="font">フォント</string>
+    <string name="defaultStr">デフォルト</string>
+    <string name="mojiSize">文字サイズ</string>
+    <string name="theme">テーマ</string>
+    <string name="aboutApp">このアプリについて</string>
+    <string name="general">全般</string>
+    <string name="close">CLOSE</string>
+    <string name="big">大</string>
+    <string name="small">小</string>
+    <string name="version">バージョン</string>
+    <string name="license">ライセンス</string>
+    <string name="privacy_policy">プライバシーポリシー</string>
+    <string name="select_memo_count">選択中のメモ：%d</string>
+    <string name="delete_dialog_message">このメモを削除しますか？</string>
+    <string name="cancel">キャンセル</string>
+    <string name="ok">OK</string>
+    <string name="not_memo">メモがありません。</string>
+    <string name="not_delete_memo">ゴミ箱にメモがありません。</string>
+    <string name="in_to_garbage_box">ゴミ箱へ入れました</string>
+    <string name="in_to_allmemo_box">元に戻しました</string>
+    <string name="sort_new">新しい順</string>
+    <string name="sort_old">古い順</string>
+    <string name="empty_garbage_box">ゴミ箱を空にする</string>
+    <string name="do_empty_garbage_box">ゴミ箱を空にしますか？</string>
+    <string name="copy">コピー</string>
+    <string name="restore">元に戻す</string>
+    <string name="save_as_image">画像として保存</string>
+    <string name="copied">コピーしました。</string>
+    <string name="restore_dialog_message">メモの内容を編集前に戻しますか？</string>
+    <string name="access_to_storage_message">ストレージへのアクセスを許可してください</string>
+
+</resources>
