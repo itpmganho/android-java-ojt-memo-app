@@ -25,11 +25,11 @@
     <color name="colorHeaderBar1">#E9B6AA</color>// 233 182 170
     <color name="colorHeaderBar2">#F7D0E3</color>// 247 208 227
     <color name="colorHeaderBar3">#E5C8FB</color>// 229 200 251
-    <color name="colorHeaderBar4">#6C7CF4</color>// 108 124 244
+    <color name="colorHeaderBar4">#F5C181</color>// 108 124 244
     <color name="colorHeaderBar5">#A4CBFA</color>// 164 203 250
     <color name="colorHeaderBar6">#AFE4DF</color>// 175 228 223
     <color name="colorHeaderBar7">#9DD496</color>// 157 212 150
-    <color name="colorHeaderBar8">#F5C181</color>// 245 193 129
+    <color name="colorHeaderBar8">#6C7CF4</color>// 245 193 129
 
     <!-- ThemeBg Color -->
     <color name="colorThemeBg1">#F7F4DA</color>// 247 244 218
