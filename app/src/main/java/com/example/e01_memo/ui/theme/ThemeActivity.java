@@ -29,6 +29,8 @@ public class ThemeActivity extends AppCompatActivity implements ThemeFragment.Th
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         getSupportActionBar().setHomeButtonEnabled(true);
 
+        setTitle(R.string.theme);
+
         ThemeFragment fragment = ThemeFragment.newInstance(themeSetting.ordinal());
 
         presenter = new ThemePresenterImpl(fragment);
