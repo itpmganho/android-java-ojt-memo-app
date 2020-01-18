@@ -33,7 +33,6 @@ public class ThemeActivity extends AppCompatActivity implements ThemeFragment.Th
 
         ThemeFragment fragment = ThemeFragment.newInstance(themeSetting.ordinal());
 
-
         presenter = new ThemePresenterImpl(fragment);
 
         getSupportFragmentManager().beginTransaction()
