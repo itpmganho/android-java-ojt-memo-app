@@ -159,12 +159,13 @@ public class EditFragment extends BaseFragment implements EditContract.EditView,
     public void hideSoftKeyboard() {
 
         if(editActionListener == null) {
-            Log.d(editActionListener.getClass().getSimpleName(), "リスナーがNULLです。");
+            Log.e(editActionListener.getClass().getSimpleName(), "EditActionListener not implemented");
             return;
-        } else {
-            View focusView = editActionListener.getCurrentFocusView();
-            inputMethodManager.hideSoftInputFromWindow(focusView.getWindowToken(), 0);
         }
+
+        View focusView = editActionListener.getCurrentFocusView();
+        inputMethodManager.hideSoftInputFromWindow(focusView.getWindowToken(), 0);
+
     }
 
     @Override
