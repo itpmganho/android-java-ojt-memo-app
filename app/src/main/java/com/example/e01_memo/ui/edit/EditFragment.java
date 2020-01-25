@@ -258,6 +258,7 @@ public class EditFragment extends BaseFragment implements EditContract.EditView,
 
 
     public void showSoftKeyboard() {
+        editText.requestFocus();
         inputMethodManager.toggleSoftInput(InputMethodManager.SHOW_FORCED,InputMethodManager.HIDE_IMPLICIT_ONLY);
     }
 
