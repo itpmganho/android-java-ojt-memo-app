@@ -225,7 +225,7 @@ public class MainFragment extends BaseFragment implements MainContract.MainView 
         recyclerView.setVisibility(View.GONE);
         emptyText.setVisibility(View.VISIBLE);
         if (MyApplication.selectNavigationItem != Constant.NavigationItem.DELETE) {
-            emptyText.setText("空です");
+            emptyText.setText(R.string.not_memo);
         }
     }
 
