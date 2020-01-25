@@ -157,14 +157,14 @@ public class EditFragment extends BaseFragment implements EditContract.EditView,
     public void hideSoftKeyboard() {
 
         //画面のフォーカスを取得する
-        View forcusView = getActivity().getCurrentFocus();
+        View focusView = getActivity().getCurrentFocus();
 
         //もしどこもフォーカスしていなかったらEditTextを指定する
-        if(forcusView == null) {
-            forcusView = editText;
+        if(focusView == null) {
+            focusView = editText;
         }
         
-        inputMethodManager.hideSoftInputFromWindow(forcusView.getWindowToken(), 0);
+        inputMethodManager.hideSoftInputFromWindow(focusView.getWindowToken(), 0);
     }
 
     @Override
