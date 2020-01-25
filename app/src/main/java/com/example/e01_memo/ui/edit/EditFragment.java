@@ -14,6 +14,7 @@ import android.support.annotation.Nullable;
 import android.support.v4.app.ActivityCompat;
 import android.text.Editable;
 import android.text.TextWatcher;
+import android.util.Log;
 import android.util.TypedValue;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -157,15 +158,13 @@ public class EditFragment extends BaseFragment implements EditContract.EditView,
     @Override
     public void hideSoftKeyboard() {
 
-        //EditActivityのフォーカスビューを取得
-        View focusView = editActionListener.getCurrentFocusView();
-
-        //もしどこもフォーカスしていなかったらEditTextを指定する
-        if(focusView == null) {
-            focusView = editText;
+        if(editActionListener == null) {
+            Log.d(editActionListener.getClass().getSimpleName(), "リスナーがNULLです。");
+            return;
+        } else {
+            View focusView = editActionListener.getCurrentFocusView();
+            inputMethodManager.hideSoftInputFromWindow(focusView.getWindowToken(), 0);
         }
-
-        inputMethodManager.hideSoftInputFromWindow(focusView.getWindowToken(), 0);
     }
 
     @Override
