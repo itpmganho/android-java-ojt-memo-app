@@ -54,6 +54,7 @@ public class EditFragment extends BaseFragment implements EditContract.EditView,
         void actionRequestWritePermission();
         void actionSaveAsImgComplete(File file);
         void showRestoreDialog(DialogInterface.OnClickListener listener);
+        View getCurrentFocusView();
     }
 
     public EditFragment() {}
@@ -156,14 +157,14 @@ public class EditFragment extends BaseFragment implements EditContract.EditView,
     @Override
     public void hideSoftKeyboard() {
 
-        //画面のフォーカスを取得する
-        View focusView = getActivity().getCurrentFocus();
+        //EditActivityのフォーカスビューを取得
+        View focusView = editActionListener.getCurrentFocusView();
 
         //もしどこもフォーカスしていなかったらEditTextを指定する
         if(focusView == null) {
             focusView = editText;
         }
-        
+
         inputMethodManager.hideSoftInputFromWindow(focusView.getWindowToken(), 0);
     }
 

@@ -302,6 +302,11 @@ public class EditActivity extends AppCompatActivity implements EditFragment.Edit
     }
 
     @Override
+    public View getCurrentFocusView() {
+        return getCurrentFocus();
+    }
+
+    @Override
     public void onBackPressed() {
         if (presenter != null) presenter.onUpdateMemo();
     }
