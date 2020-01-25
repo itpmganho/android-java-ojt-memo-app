@@ -14,6 +14,7 @@ import android.support.annotation.Nullable;
 import android.support.v4.app.ActivityCompat;
 import android.text.Editable;
 import android.text.TextWatcher;
+import android.util.Log;
 import android.util.TypedValue;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -54,6 +55,7 @@ public class EditFragment extends BaseFragment implements EditContract.EditView,
         void actionRequestWritePermission();
         void actionSaveAsImgComplete(File file);
         void showRestoreDialog(DialogInterface.OnClickListener listener);
+        View getCurrentFocusView();
     }
 
     public EditFragment() {}
@@ -155,7 +157,15 @@ public class EditFragment extends BaseFragment implements EditContract.EditView,
 
     @Override
     public void hideSoftKeyboard() {
-        inputMethodManager.hideSoftInputFromWindow(getActivity().getWindow().getCurrentFocus().getWindowToken(), 0);
+
+        if(editActionListener == null) {
+            Log.e(editActionListener.getClass().getSimpleName(), "EditActionListener not implemented");
+            return;
+        }
+
+        View focusView = editActionListener.getCurrentFocusView();
+        inputMethodManager.hideSoftInputFromWindow(focusView.getWindowToken(), 0);
+
     }
 
     @Override
